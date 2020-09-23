@@ -1,0 +1,213 @@
+h1 {
+  color: white;
+}
+.Hometitle{
+  font-size: 15;
+}
+body {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  height: auto;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-width: 100%;
+  color: white;
+  z-index: 0;
+  transition: 0.3s;
+}
+
+
+.STennis {
+background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.designtrends.com%2Fwp-content%2Fuploads%2F2016%2F04%2F05094537%2FTennis-HD-Wallpaper.jpg&f=1&nofb=1');
+}
+
+.STechnology{
+background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperswide.com%2Fdownload%2Fhi_tech_texture-wallpaper-2560x1440.jpg&f=1&nofb=1');
+background-repeat: no-repeat;
+}
+
+.SScience {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fe%2Fa%2F7%2F315815-download-science-background-1920x1080-iphone.jpg&f=1&nofb=1');
+}
+
+.GFrench{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FEOXbpOm.jpg&f=1&nofb=1');
+}
+
+.GCoding{
+  background-image: url('https://i.imgur.com/iBSFaVl.jpg');
+}
+
+.CPerforming{
+  background-image: url('https://vocalawareness.com/wp-content/uploads/2018/05/TED-talk-2016.jpg');
+}
+
+.CTmanagment{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*PWapRjK-7wPhHq0_KnIeSQ.jpeg&f=1&nofb=1');
+}
+
+h2 {
+  color: white;
+}
+
+.homesplash {
+  animation: fadeInAnimation ease 2.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ytiframe {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 8;
+  transition: ease-in linear 1s;
+}
+
+.centerleft {
+  position: relative;
+  color: white;
+  vertical-align: middle;
+  line-height: 100%;
+  margin-left: 100px;
+  align-items: center;
+  margin-top: 20%;
+  font-size: 48px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(51, 51, 51);
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #000000;
+  transition: 0.1s;
+  font-size: 30px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.text{
+  color: white;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+.forum {
+  /*background-color: var(--main-color);*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 45px;
+  right: 50px;
+}
+
+.tbar1,
+.tbar2,
+.tbar3 {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
